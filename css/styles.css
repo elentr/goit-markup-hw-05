@@ -518,6 +518,10 @@ p {
     color: #fff;
 }
 
+.form-input:focus {
+    border: 1px solid #31d0aa;
+}
+
 .footer-btn {
     display: flex;
     align-items: center;
@@ -666,7 +670,8 @@ p {
     border-color: #4d5ae5;
 }
 
-.modal-input:focus + .modal-icon {
+.modal-input:focus + .modal-icon,
+.modal-input:hover + .modal-icon {
     fill: #4d5ae5;
 }
 
@@ -724,7 +729,7 @@ p {
 }
 
 .modal-chek-text {
-    display: inline-flex;
+    /* display: inline-flex; */
     cursor: pointer;
     font-weight: 400;
     font-size: 12px;
@@ -748,7 +753,7 @@ p {
 }
 
 .check-item {
-    display: inline-flex;
+    /* display: inline-flex; */
 }
 
 .modal-chek:checked + .modal-chek-text .modal-chek-item {

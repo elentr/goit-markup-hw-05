@@ -488,6 +488,7 @@ p {
     display: flex;
     flex-direction: column;
     color: #fff;
+    margin-left: auto;
 }
 
 .input-ftr-wrap {
